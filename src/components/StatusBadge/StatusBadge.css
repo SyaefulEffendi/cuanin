@@ -1,0 +1,29 @@
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.status-selesai {
+  background: var(--accent-green-light);
+  color: var(--accent-green-dark);
+}
+
+.status-dikirim {
+  background: var(--accent-purple-light);
+  color: var(--accent-purple);
+}
+
+.status-diproses {
+  background: var(--accent-yellow-light);
+  color: var(--accent-yellow);
+}
+
+.status-menunggu {
+  background: var(--accent-orange-light);
+  color: var(--accent-orange);
+}
